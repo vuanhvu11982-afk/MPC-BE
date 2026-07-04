@@ -7,6 +7,8 @@ Fixed remembering the title of the entry in the playlist for URLs processed by y
 Fixed getting icon for file properties window when path length is 260 or more characters.
 
 Added Vietnamese translation (by vuanhvu11982-afk).
+Updated German translation (by Klaus1189).
+Updated Romanian translation (by Andrei Miloiu).
 
 Updated libraries:
 	ffmpeg n8.2-dev-2181-g6f2f3755a0.
