@@ -813,10 +813,10 @@ BEGIN
     LTEXT           "Двойной щелчок",IDC_STATIC,10,49,60,8
     COMBOBOX        IDC_COMBO2,70,47,166,30,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
     CONTROL         "Переносить окно за видеообласть",IDC_CHECK2,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,10,65,133,10
-    CONTROL         "Enable long press speed-up",IDC_CHECK3,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,10,81,135,10
-    LTEXT           "Long press speed",IDC_STATIC,150,82,65,8
+    CONTROL         "Ускорить воспроизведение при длительном нажатии",IDC_CHECK3,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,10,81,135,10
+    LTEXT           "Ускорение воспроизведения",IDC_STATIC,150,82,65,8
     COMBOBOX        IDC_COMBO4,220,79,55,70,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
-    LTEXT           "Long press delay",IDC_STATIC,150,98,65,8
+    LTEXT           "Задержка перед ускорением",IDC_STATIC,150,98,65,8
     COMBOBOX        IDC_COMBO5,220,95,55,70,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
     LTEXT           "Щелчок правый",IDC_STATIC,10,124,60,8
     COMBOBOX        IDC_COMBO3,70,121,166,30,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
