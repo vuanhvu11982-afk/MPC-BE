@@ -91,14 +91,14 @@ void CRenderersSettings::Load()
 
 	profile.ReadInt(IDS_R_VIDEO, IDS_RS_VIDEORENDERER, iVideoRenderer);
 	iVideoRenderer = discard(iVideoRenderer, (int)VIDRNDT_EVR_CP,
-		{VIDRNDT_EVR,
-		VIDRNDT_EVR_CP,
-		VIDRNDT_SYNC,
-		VIDRNDT_MPCVR,
-		VIDRNDT_DXR,
-		VIDRNDT_MADVR,
-		VIDRNDT_NULL_ANY,
-		VIDRNDT_NULL_UNCOMP,
+		{ (int)VIDRNDT_EVR,
+		(int)VIDRNDT_EVR_CP,
+		(int)VIDRNDT_SYNC,
+		(int)VIDRNDT_MPCVR,
+		(int)VIDRNDT_DXR,
+		(int)VIDRNDT_MADVR,
+		(int)VIDRNDT_NULL_ANY,
+		(int)VIDRNDT_NULL_UNCOMP,
 		});
 	profile.ReadBool(IDS_R_VIDEO, IDS_RS_EXCLUSIVEFULLSCREEN, bExclusiveFullscreen);
 
