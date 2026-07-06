@@ -446,7 +446,7 @@ struct fullScreenRes {
 inline constexpr auto g_SpeedSteps         = make_array(1, 5, 10, 20, 25, 50, 100);
 inline constexpr auto g_AutoScaleFactors   = make_array(50, 100, 200);
 inline constexpr auto g_LongPressDelays    = make_array(300, 400, 500);
-inline constexpr auto g_CommonVideoHeights = make_array(4320, 2880, 2160, 1080, 1440, 720, 480, 360, 0);
+inline constexpr auto g_CommonVideoHeights = make_array(4320, 2880, 2160, 1440, 1080, 720, 480, 360, 0);
 
 class CAppSettings
 {
