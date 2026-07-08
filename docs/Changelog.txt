@@ -19,6 +19,7 @@ Updated Japanese translation (by tsubasanouta).
 Updated Korean translation (by Hackjjang).
 Updated Turkish translation (by cmhrky).
 Updated Hungarian translation (by mickey).
+Updated Bulgarian translation (by jekovcar).
 
 Updated libraries:
 	Detours v4.0.1-131-gd644ce9;
